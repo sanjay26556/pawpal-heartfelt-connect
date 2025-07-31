@@ -18,12 +18,24 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Paw Pal custom variants
+        love: "bg-love text-love-foreground hover:bg-love/90 shadow-sm rounded-xl",
+        rescue: "bg-rescue text-rescue-foreground hover:bg-rescue/90 shadow-sm rounded-xl",
+        success: "bg-success text-success-foreground hover:bg-success/90 shadow-sm rounded-xl",
+        warning: "bg-warning text-warning-foreground hover:bg-warning/90 shadow-sm rounded-xl",
+        paw: "bg-primary text-primary-foreground hover:bg-primary/90 rounded-full shadow-md hover:shadow-lg transition-all duration-200",
+        heart: "bg-love text-love-foreground hover:bg-love/90 rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105",
+        gentle: "bg-accent text-accent-foreground hover:bg-accent/80 rounded-xl border border-border/50 shadow-sm",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
+        // Custom sizes for Paw Pal
+        paw: "h-12 w-12",
+        heart: "h-10 w-10",
+        gentle: "h-12 px-6 py-3",
       },
     },
     defaultVariants: {

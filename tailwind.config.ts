@@ -52,6 +52,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				love: {
+					DEFAULT: 'hsl(var(--love))',
+					foreground: 'hsl(var(--love-foreground))'
+				},
+				rescue: {
+					DEFAULT: 'hsl(var(--rescue))',
+					foreground: 'hsl(var(--rescue-foreground))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -88,7 +104,13 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'paw-print': 'pawPrint 2s ease-in-out infinite',
+				'heart-beat': 'heartBeat 1.5s ease-in-out infinite',
+				'gentle-bounce': 'gentle-bounce 2s ease-in-out infinite'
+			},
+			fontFamily: {
+				sans: ['Nunito', 'Inter', 'system-ui', 'sans-serif'],
 			}
 		}
 	},
